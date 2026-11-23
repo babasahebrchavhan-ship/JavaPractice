@@ -1,7 +1,10 @@
 package JavaPractice.Interview.B21thNov26;
 
+import org.testng.annotations.Test;
+
 public class nonDuplicatewithoutSet {
-    public static void main(String[] args) {
+    @Test
+    public  void Main() {
         String str = "Babasaheb";
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);

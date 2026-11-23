@@ -1,9 +1,12 @@
 package JavaPractice.Interview.B21thNov26;
+
+import org.testng.annotations.Test;
+
 import java.util.Stack; // Import Stack class
 
 public class BalancedParenthesis { // Main class
-
-    public static void main(String[] args) { // Main method
+    @Test
+    public void Main() { // Main method
 
         String str = "{[(<>)]}"; // Input string
 

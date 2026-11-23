@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="JavaProgram Suite">
+    <listeners>
+        <listener class-name="JavaPractice.Interview.B21thNov26.TestRunListener"/>
+    </listeners>
+    <test name="B21thNov26 Tests">
+        <packages>
+            <package name="JavaPractice.Interview.B21thNov26"/>
+        </packages>
+    </test>
+</suite>

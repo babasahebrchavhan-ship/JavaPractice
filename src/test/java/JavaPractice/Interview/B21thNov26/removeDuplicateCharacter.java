@@ -1,9 +1,12 @@
 package JavaPractice.Interview.B21thNov26;
 
+import org.testng.annotations.Test;
+
 import java.util.TreeSet;
 
 public class removeDuplicateCharacter {
-    public static void main(String[] args) {
+    @Test
+    public void Main() {
         String str = "Babasaheb";
         TreeSet<Character> set = new TreeSet<>();
         StringBuffer sf = new StringBuffer();
@@ -15,7 +18,7 @@ public class removeDuplicateCharacter {
             }
         }
 
-        System.out.println("Set:"+set);
-        System.out.println("Non Duplicate Character:"+sf.toString());
+        System.out.println("Set:" + set);
+        System.out.println("Non Duplicate Character:" + sf.toString());
     }
 }

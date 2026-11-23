@@ -1,9 +1,12 @@
 package JavaPractice.Interview.B21thNov26;
 
+import org.testng.annotations.Test;
+
 import java.util.TreeSet;
 
 public class dup1 {
-    public static void main(String[] args){
+    @Test
+    public void Main(){
         String str="babasaheb";
         TreeSet<Character>set=new TreeSet<>();
         StringBuffer sb=new StringBuffer();

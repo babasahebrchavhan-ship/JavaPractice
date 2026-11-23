@@ -1,10 +1,13 @@
 package JavaPractice.Interview.B21thNov26;
 
+import org.testng.annotations.Test;
+
 import java.util.Map;
 import java.util.TreeMap;
 
 public class countf1 {
-    public static void main(String[] args){
+    @Test
+    public  void Main(){
       String str="My name is Babasaheb";
         TreeMap<Character,Integer> map=new TreeMap<>();
         for(int i=0;i<str.length();i++) {

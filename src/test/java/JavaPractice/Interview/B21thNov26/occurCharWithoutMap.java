@@ -1,7 +1,10 @@
 package JavaPractice.Interview.B21thNov26;
 
+import org.testng.annotations.Test;
+
 public class occurCharWithoutMap {
-    public static void main(String[] args){
+    @Test
+    public  void Main(){
         String str="Babasaheb";
         int[] freq=new int[256];
         for(int i=0;i<str.length();i++) {
